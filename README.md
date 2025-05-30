@@ -1,4 +1,4 @@
-# v📚 Applying Math with Python - Code Repository
+# 📚 Applying Math with Python - Code Repository
 
 Repositório com implementações comentadas dos projetos do livro **Applying Math with Python (Sam Morley)**.
 
