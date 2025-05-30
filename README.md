@@ -1,88 +1,40 @@
-# 📄 RMarkdown Templates
+# v📚 Applying Math with Python - Code Repository
 
-Bem-vindo ao repositório de templates de arquivos RMarkdown!
-Este repositório contém modelos customizados que utilizam um arquivo LaTeX (template.tex) para formatação, permitindo a geração de documentos bem estruturados com suporte à execução de código tanto em R quanto em Python — ideal para análises reprodutíveis e relatórios técnicos.
+Repositório com implementações comentadas dos projetos do livro **Applying Math with Python (Sam Morley)**.
 
-## 🌱 Origem e Melhorias
+Este projeto visa disponibilizar os códigos desenvolvidos durante o estudo do livro, com explicações detalhadas e exemplos práticos para auxiliar no aprendizado de Computação Científica com **Python**.
 
-Este repositório é um fork do projeto original de [iandrade-uft/template-solucionario-rmd](https://github.com/iandrade-uft/template-solucionario-rmd).
+# 📌 Sobre o Livro
 
-As principais melhorias implementadas incluem:
+O livro **Applying Math with Python** ensina como resolver problemas matemáticos complexos usando:
 
- * 📁 Reorganização da estrutura de pastas, com separação clara entre ativos estáticos, código-fonte e arquivos gerados;
+  * Bibliotecas científicas (NumPy, SciPy, SymPy, Matplotlib).
 
- * 🌐 Inclusão de uma página HTML (index.html) para apresentação do projeto via GitHub Pages;
+  * Técnicas numéricas (cálculo, álgebra linear, otimização).
 
- * ⚙️ Suporte completo a código R e Python dentro dos arquivos .Rmd.
+  * Aplicações práticas em ciência de dados, física e engenharia.
 
-## 📂 Estrutura do Repositório
+# 🔧 Como Usar
 
-    .
-    ├── assets/                         # Recursos estáticos para a página HTML
-    │   ├── css/                        # Estilos CSS
-    │   ├── img/                        # Imagens utilizadas
-    │   └── js/                         # Scripts JavaScript
-    │
-    ├── vendor/                         # Dependências de terceiros (se aplicável)
-    │
-    ├── output/                         # Documentos gerados
-    │   ├── template_using_python.pdf   # PDF gerado com código em Python
-    │   └── template_using_r.pdf        # PDF gerado com código em R
-    │
-    ├── src/                            # Arquivos-fonte dos documentos
-    │   ├── template_using_python.Rmd   # RMarkdown com código em Python
-    │   └── template_using_r.Rmd        # RMarkdown com código em R
-    │
-    ├── template.tex                    # Template LaTeX usado na formatação final
-    ├── index.html                      # Página de apresentação (GH Pages)
-    ├── .gitignore                      # Arquivo de exclusão do Git
-    ├── LICENSE.txt                     # Licença do projeto
-    └── README.md                       # Este arquivo de documentação
+  1. Clone o repositório:
+```bash
+git clone https://github.com/seu-usuario/applying-math-with-python.git 
+``` 
 
-## 🚀 Como Usar
+  2. Instale as dependências:
 
-Para usar os templates deste repositório, siga os passos abaixo:
+```bash
+pip install -r requirements.txt 
+```
 
-1. Clone o repositório:
+# 🎯 Objetivos
 
-        git clone https://github.com/costandrad/template-solucionario-rmd.git
+  ✔ Fornecer implementações comentadas e didáticas.
+  ✔ Facilitar o aprendizado de matemática computacional.
+  ✔ Servir como referência para projetos científicos.
 
-2. Acesse o diretório clonado:
+# 📚 Referências
 
-        cd template-solucionario-rmd
+  Livro: **Applying Math with Python** - Sam Morley
 
-3. Escolha e edite um dos arquivos .Rmd:
-
-    * Para Python: 
-
-            src/template_using_python.Rmd
-
-     * Para R: 
-        
-            src/template_using_r.Rmd
-
-4. Compile o documento no RStudio ou usando o `rmarkdown::render()`  no console do R.
-
-
-## 📄 Licença
-
-Este projeto está licenciado sob a licença MIT.
-Confira o arquivo [LICENSE.txt](https://github.com/costandrad/template-solucionario-rmd/blob/main/LICENSE.txt) para mais informações.
-
-## 🧑‍💻 Autor
-
-### Igo da Costa Andrade
-
-<p align="left">
-  <a href="https://costandrad.github.io/" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub%20Pages-gray?logo=github&width=200&height=36" alt="Github Pages" style="vertical-align:top;">
-  </a>
-
-  <a href="mailto:costandrad@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/Email-white?logo=gmail&width=200&height=36" alt="Email" style="vertical-align:top;">
-  </a>
-
-  <a href="http://lattes.cnpq.br/9812776894168057" target="_blank">
-    <img src="https://img.shields.io/badge/Lattes-blue?logo=google-scholar&logoColor=white&width=200&height=36" alt="Lattes" style="vertical-align:top;">
-  </a>
-</p>
+  Documentação: *NumPy, SciPy, Matplotlib*
