@@ -1,40 +1,48 @@
-# 📚 Applying Math with Python - Code Repository
+# 📚 Applying Math with Python - Código Científico
 
-Repositório com implementações comentadas dos projetos do livro **Applying Math with Python (Sam Morley)**.
+Repositório com implementações dos projetos do livro **"Applying Math with Python"** (Sam Morley).
 
-Este projeto visa disponibilizar os códigos desenvolvidos durante o estudo do livro, com explicações detalhadas e exemplos práticos para auxiliar no aprendizado de Computação Científica com **Python**.
+## 🛠️ Como Executar
 
-# 📌 Sobre o Livro
+1. **Clone o repositório**:
+   ```bash
+   git clone https://github.com/seu-usuario/projeto-abc.git
+   cd projeto-abc
+   ```
 
-O livro **Applying Math with Python** ensina como resolver problemas matemáticos complexos usando:
+2. **Configure o ambiente virtual**:
+   ```bash
+   python -m venv venv
+   # Linux/macOS:
+   source venv/bin/activate
+   # Windows:
+   .\venv\Scripts\activate
+   ```
 
-  * Bibliotecas científicas (NumPy, SciPy, SymPy, Matplotlib).
+3. **Instale as dependências**:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-  * Técnicas numéricas (cálculo, álgebra linear, otimização).
+4. **Execute os notebooks**:
+   ```bash
+   jupyter notebook src/notebooks/
+   ```
 
-  * Aplicações práticas em ciência de dados, física e engenharia.
-
-# 🔧 Como Usar
-
-  1. Clone o repositório:
-```bash
-git clone https://github.com/seu-usuario/applying-math-with-python.git 
-``` 
-
-  2. Instale as dependências:
-
-```bash
-pip install -r requirements.txt 
+## 📂 Estrutura de Arquivos
+```
+/
+├── src/
+│   ├── notebooks/       # Jupyter Notebooks (.ipynb)
+│   ├── data/            # Conjuntos de dados
+│   └── scripts/         # Códigos Python (.py)
+├── requirements.txt     # Dependências
+└── LICENSE              # Licença MIT
 ```
 
-# 🎯 Objetivos
+## 🌐 Visualização dos Resultados
+Acesse o website com gráficos interativos:  
+[![GitHub Pages](https://img.shields.io/badge/🌐_Website-Acesse_os_Resultados-blue)](https://costandrad.github.io/applying-math-with-python)
 
-  ✔ Fornecer implementações comentadas e didáticas.
-  ✔ Facilitar o aprendizado de matemática computacional.
-  ✔ Servir como referência para projetos científicos.
-
-# 📚 Referências
-
-  Livro: **Applying Math with Python** - Sam Morley
-
-  Documentação: *NumPy, SciPy, Matplotlib*
+📌 **Documentação das bibliotecas**:  
+- [NumPy](https://numpy.org/doc/) | [SciPy](https://docs.scipy.org/doc/scipy/) | [Matplotlib](https://matplotlib.org/stable/contents.html)
