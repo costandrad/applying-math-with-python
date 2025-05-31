@@ -1,0 +1,60 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+venv*/
+*.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Web/Static Files ---
+node_modules/
+.sass-cache/
+*.css.map
+*.js.map
+*.min.js
+*.min.css
+
+# --- Sistemas Operacionais ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Dados Sensíveis ---
+*.env
+*.secret
+*.key
+credentials.json
+
+# --- Jupyter Notebooks (opcional) ---
+# Descomente se não versionar .ipynb
+# *.ipynb
