@@ -1,40 +1,31 @@
-# v📚 Applying Math with Python - Code Repository
+# 🌐 Website - Visualização Interativa
 
-Repositório com implementações comentadas dos projetos do livro **Applying Math with Python (Sam Morley)**.
+Visualização dos resultados científicos do projeto.
 
-Este projeto visa disponibilizar os códigos desenvolvidos durante o estudo do livro, com explicações detalhadas e exemplos práticos para auxiliar no aprendizado de Computação Científica com **Python**.
+## 🚀 Como Usar
+1. **Acesse o site**:  
+   [https://seu-usuario.github.io/projeto-abc](https://seu-usuario.github.io/projeto-abc)
 
-# 📌 Sobre o Livro
+2. **Navegue pelos menus** para explorar os gráficos.
 
-O livro **Applying Math with Python** ensina como resolver problemas matemáticos complexos usando:
-
-  * Bibliotecas científicas (NumPy, SciPy, SymPy, Matplotlib).
-
-  * Técnicas numéricas (cálculo, álgebra linear, otimização).
-
-  * Aplicações práticas em ciência de dados, física e engenharia.
-
-# 🔧 Como Usar
-
-  1. Clone o repositório:
-```bash
-git clone https://github.com/seu-usuario/applying-math-with-python.git 
-``` 
-
-  2. Instale as dependências:
-
-```bash
-pip install -r requirements.txt 
+## 🛠 Tecnologias Utilizadas
+```html
+<!-- Exemplo de estrutura HTML -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Gráficos Interativos</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+  </head>
+  <body>
+    <div id="chart"></div>
+  </body>
+</html>
 ```
 
-# 🎯 Objetivos
+## 📌 Links Úteis
+- [Repositório Científico](https://github.com/costandrad/applying-math-with-python) (branch `main`)
+- [Documentação D3.js](https://d3js.org/)
 
-  ✔ Fornecer implementações comentadas e didáticas.
-  ✔ Facilitar o aprendizado de matemática computacional.
-  ✔ Servir como referência para projetos científicos.
-
-# 📚 Referências
-
-  Livro: **Applying Math with Python** - Sam Morley
-
-  Documentação: *NumPy, SciPy, Matplotlib*
+## 📜 Licença
+[MIT](LICENSE) - Consulte o arquivo `LICENSE` para detalhes.
